@@ -40,4 +40,6 @@ Bước 2:
         });
 ![toado](https://github.com/user-attachments/assets/f3f959fd-9736-4cf4-aace-b7989ac8ac3b)
 
-    ![image](https://github.com/user-attachments/assets/18e0b9d4-bea3-4bb9-aca0-dae61df4008a)
+ =>>>>> Kết quả khi lấy được dữ liệu đồ thị ẩn
+![dothi](https://github.com/user-attachments/assets/aa948ead-0aee-4e72-8454-17b7e1ba716a)
+
