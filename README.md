@@ -24,20 +24,24 @@ Bước 1:
     + Tự động hóa trong việc di chuột qua các tọa độ trên đồ thị để hiển thị dữ liệu và lấy nó về( bởi khi dữ liẹu hiển thị ra thì thẻ element tương ứng mới hiện để ta tìm và lấy được).( Khó )
     + Sử dụng được các phương thức trong Selenium để tìm các thẻ và lấy nội dung trong đó.
 Bước 2:
-  - Viết Script vào Console để tạo tool lấy tọa độ khi di chuột trên đồ thị
-     function getMousePosition(canvas, event) {
-            let rect = canvas.getBoundingClientRect();
-            let x = event.clientX - rect.left;
-            let y = event.clientY - rect.top;
-            console.log("Coordinate x: " + x,
-                "Coordinate y: " + y);
-        }
- 
-        let canvasElem = document.querySelector("canvas");
- 
-        canvasElem.addEventListener("mousedown", function (e) {
-            getMousePosition(canvasElem, e);
-        });
+  - Viết Script vào Console để tạo tool lấy tọa độ khi di chuột trên đồ thị.
+    
+  
+```javascript
+function getMousePosition(canvas, event) {
+    let rect = canvas.getBoundingClientRect();
+    let x = event.clientX - rect.left;
+    let y = event.clientY - rect.top;
+    console.log("Coordinate x: " + x, "Coordinate y: " + y);
+}
+
+let canvasElem = document.querySelector("canvas");
+
+canvasElem.addEventListener("mousedown", function (e) {
+    getMousePosition(canvasElem, e);
+});
+```
+Chạy trên Cosole trình duyệt
 ![toado](https://github.com/user-attachments/assets/f3f959fd-9736-4cf4-aace-b7989ac8ac3b)
 
  =>>>>> Kết quả khi lấy được dữ liệu đồ thị ẩn
