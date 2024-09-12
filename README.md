@@ -1,7 +1,7 @@
 
 # Bước 1: 
-## Nhận dạng đặc điểm trang web
-### Đây là web API  cung cấp phương thức Get để lấy dữ liệu như cách thông thường.
+## Nhận dạng đặc điểm trang web.
+### Đây là web  không cung cấp phương thức Get để lấy dữ liệu như cách thông thường.
 ![DulieuchicapPost](https://github.com/user-attachments/assets/de8aea72-7c5f-4544-a096-ec2d81f31d96)
       
 ![image](https://github.com/user-attachments/assets/a579f3ae-825d-4030-b1ba-fd5e499ea02b)
