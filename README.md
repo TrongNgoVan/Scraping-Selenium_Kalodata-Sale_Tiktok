@@ -1,4 +1,4 @@
-
+# Selenium_Kalodata_SaleTikTok (05/09/2024)
 # Bước 1: 
 ## Nhận dạng đặc điểm trang web.
 ### Đây là web  không cung cấp phương thức Get để lấy dữ liệu như cách thông thường.
